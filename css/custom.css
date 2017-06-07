@@ -146,6 +146,24 @@ h6, .h6 {
 }
 .blog-post-meta {
   margin-bottom: 20px;
+  word-spacing: 5px;
+  color: #999;
+}
+
+/*
+ * Blog post List
+ */
+
+.blog-list {
+  margin-bottom: 30px;
+}
+.blog-list-item {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.blog-list-item-meta {
+  margin-bottom: 20px;
+  word-spacing: 5px;
   color: #999;
 }
 
