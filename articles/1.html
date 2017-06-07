@@ -7,13 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <title>Blog Template for Bootstrap</title>
+    <title>Moonlight Shadow</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/blog.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="../css/blog.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
   </head>
 
   <body>
@@ -21,8 +21,9 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item" href="index.html">Latest</a>
-          <a class="blog-nav-item active" href="#">All</a>
+          <a class="blog-nav-item" href="../index.html">Home</a>
+          <a class="blog-nav-item active" href="latest.html">Latest</a>
+          <a class="blog-nav-item" href="list.html">All</a>
         </nav>
       </div>
     </div>
@@ -31,28 +32,34 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title">List of All Articles</h1>
-        <p class="lead blog-description">A collection of interesting stuff.</p>
+        <h1 class="blog-title">#1</h1>
+        <p class="lead blog-description">First Article. It all started from this.</p>
       </div>
 
       <div class="row">
 
         <div class="col-sm-8 blog-main">
 
-          <div class="blog-list">
-            <p class="blog-list-item">Sentiment analysis on tweets <a href="#"><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a></p>
-            <p class="blog-list-item-meta">5th June 2017 &nbsp; <a href="#">twitter</a> <a href="#">natural-language-processing</a> <a href="#">python</a></p>
-          </div><!-- /.blog-list -->
-          <div class="blog-list">
-            <p class="blog-list-item">Automobile Price Prediction <a href="#"><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a></p>
-            <p class="blog-list-item-meta">7th June 2017 &nbsp; <a href="#">machine-learning</a> <a href="#">python</a> <a href="#">azure-web-services</a></p>
-          </div><!-- /.blog-list -->
+          <div class="blog-post">
+            <h2 class="blog-post-title">Automobile Price Prediction</h2>
+            <p class="blog-post-meta">5th June 2017 &nbsp; <a href="#">azure-web-services</a> <a href="#">machine-learning</a> <a href="#">python</a></p>
+
+            <p> Dataset used for this prediction includes entries for various individual automobiles, including information such as make, model, technical specifications, and price. </p>
+            <p>Requirements:</p>
+            <ol>
+              <li>Get Data</li>
+              <li>Prepare Data</li>
+              <li>Define Features</li>
+              <li>Choose and apply a learning algorithm</li>
+              <li>Predict new automobile prices</li>
+            </ol>
+          </div><!-- /.blog-post -->
 
 
           <nav>
             <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
+              <li><a href="2.html">Previous</a></li>
+              <li class="disabled"><a>Next</a></li>
             </ul>
           </nav>
 
@@ -92,7 +99,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"></script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
